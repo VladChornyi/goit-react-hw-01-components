@@ -1,0 +1,16 @@
+.head {
+  background-color: silver;
+}
+.table {
+  width: 350px;
+  margin: 50px auto;
+  border: 2px solid grey;
+  background-color: rgba(163, 132, 92, 0.3);
+}
+.tblock {
+  background-color: rgb(160, 159, 159);
+  border: 1px solid black;
+}
+.tableItem {
+  border: 1px dashed rgb(68, 68, 68);
+}

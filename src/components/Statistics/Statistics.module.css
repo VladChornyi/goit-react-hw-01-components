@@ -1,0 +1,23 @@
+.statistics {
+  width: 350px;
+  margin: 50px auto;
+  text-align: center;
+  border: solid 2px black;
+}
+.title {
+  background-color: rgba(125, 213, 36, 0.4);
+  margin: 0;
+  border-bottom: 1px dotted black;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.item {
+  background-color: rgba(192, 122, 31, 0.6);
+  display: flex;
+  justify-content: space-around;
+}
+.percentage {
+  font-weight: bold;
+}

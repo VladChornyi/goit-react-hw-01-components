@@ -1,0 +1,32 @@
+.item {
+  list-style: none;
+  display: flex;
+  border: 1px solid rgb(96, 176, 208);
+}
+
+.online {
+  display: inline-block;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  margin: auto 20px;
+}
+.offline {
+  display: inline-block;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  margin: auto 20px;
+}
+
+.avatar {
+  margin-right: 20px;
+  border-radius: 40%;
+  border: 2px dotted rgb(96, 176, 208);
+}
+.name {
+  color: rgb(5, 72, 99);
+  font-weight: bold;
+}
