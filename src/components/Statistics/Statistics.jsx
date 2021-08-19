@@ -1,20 +1,16 @@
-
+import StatisticItem from './StatisticItem/StatisticItem';
 import PropTypes from 'prop-types';
 import s from './Statistics.module.css'
 
 const Statistics = ({ title, stats } ) => {
     return (
-        
         <section className={s.statistics}>
-           {title && <h2 className={s.title}>{title}</h2>}
+            {title && <h2 className={s.title}>{title}</h2>}
+            <ul  className={s.list}>
             {stats.map(({ id, label, percentage }) => (
-                 <ul key={id} className={s.list}>
-                 <li className={s.item}>
-                    <span className={s.label}>{label} : </span>
-                    <span className={s.percentage}>{percentage}%</span>
-                </li>
-                </ul>
-        ))}
+                <StatisticItem key={id} label={label} percentage={percentage}/>
+            ))}
+                 </ul>
             </section>
             
     );

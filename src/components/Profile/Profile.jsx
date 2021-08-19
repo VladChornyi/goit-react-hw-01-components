@@ -2,20 +2,21 @@ import Stats from "./Stats/Stats";
 import PropTypes from 'prop-types';
 import s from './Profile.module.css'
 
-const Profile = ({user}) => {
+const Profile = ({ user }) => {
+  const { name, tag, avatar, location, stats } = user;
     return (
         <div className={s.profile}>
     <div className={s.description}>
     <img
-      src={user.avatar}
+      src={avatar}
       alt="Аватар пользователя"
       className={s.avatar}
     />
-    <p className={s.name}>{user.name}</p>
-    <p className={s.name}>{user.tag}</p>
-    <p className={s.name}>{user.location}</p>
+    <p className={s.name}>{name}</p>
+    <p className={s.name}>{tag}</p>
+    <p className={s.name}>{location}</p>
   </div>
-        <Stats stats={Object.entries(user.stats)}/>
+        <Stats stats={Object.entries(stats)}/>
 </div>
     );
 }

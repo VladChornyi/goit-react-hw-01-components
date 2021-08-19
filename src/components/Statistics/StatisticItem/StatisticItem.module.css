@@ -1,0 +1,9 @@
+.item {
+  background-color: rgba(192, 122, 31, 0.6);
+  display: flex;
+  justify-content: space-around;
+  border: black 1px solid;
+}
+.percentage {
+  font-weight: bold;
+}

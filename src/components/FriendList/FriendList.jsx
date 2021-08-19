@@ -4,8 +4,6 @@ import s from './FriendList.module.css'
 
 const FriendList = ({friends }) => {
 
-    console.log(friends);
-
     return (
        
             <ul className={s.friendList}>

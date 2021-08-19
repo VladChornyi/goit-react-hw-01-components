@@ -13,11 +13,3 @@
   list-style: none;
   padding: 0;
 }
-.item {
-  background-color: rgba(192, 122, 31, 0.6);
-  display: flex;
-  justify-content: space-around;
-}
-.percentage {
-  font-weight: bold;
-}
